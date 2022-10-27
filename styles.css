@@ -68,8 +68,8 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  background: var(--clr-primary-1);
+  color: var(--clr-white);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -160,6 +160,10 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
+
+.poster-container {
+  margin-top: 5rem;
+}
 @media screen and (min-width: 576px) {
   .section-center {
     display: grid;
@@ -200,6 +204,9 @@ p {
   margin: 0 auto;
 }
 
+.search-form h2 {
+  color: var(--clr-white);
+}
 input {
   width: 100%;
   font-size: 1rem;
