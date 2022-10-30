@@ -277,7 +277,7 @@ input::placeholder {
   width: 85vw;
   max-width: var(--max-width);
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
